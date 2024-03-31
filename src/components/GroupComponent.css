@@ -1,0 +1,119 @@
+.frame-child7 {
+  width: 463px;
+  height: 346.5px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.privacy,
+.shipping,
+.terms {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.terms {
+  margin: 0;
+  width: 87px;
+  height: 43.6px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  flex-shrink: 0;
+  min-width: 87px;
+}
+.privacy,
+.shipping {
+  min-width: 52px;
+}
+.shipping {
+  min-width: 61px;
+}
+.shipping-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs-5);
+  font-size: var(--font-size-mini);
+}
+.returns {
+  position: relative;
+  display: inline-block;
+  min-width: 56px;
+  z-index: 1;
+}
+.pricing-categories {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) var(--padding-10xs-1) var(--padding-10xs);
+  font-size: var(--font-size-base);
+}
+.blog {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  z-index: 1;
+}
+.return-policy {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) var(--padding-8xs-3);
+}
+.careers {
+  position: relative;
+  display: inline-block;
+  min-width: 55px;
+  z-index: 1;
+}
+.careers-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xs);
+}
+.careers-wrapper,
+.frame-wrapper1,
+.privacy-parent,
+.rectangle-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privacy-parent {
+  flex-direction: column;
+  gap: var(--gap-mini-8);
+}
+.frame-wrapper1,
+.rectangle-parent3 {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-mid);
+}
+.rectangle-parent3 {
+  width: 463px;
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  padding: var(--padding-9xl-7) var(--padding-17xl) var(--padding-32xl);
+  box-sizing: border-box;
+  gap: var(--gap-24xl-6);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-faustina);
+}
+@media screen and (max-width: 800px) {
+  .terms {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .terms {
+    font-size: var(--font-size-lgi);
+  }
+}

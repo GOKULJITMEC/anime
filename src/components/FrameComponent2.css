@@ -1,0 +1,188 @@
+.sign-up-button {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  filter: blur(4px);
+}
+.animego {
+  height: 100px;
+  width: 195.7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sign-up-button-parent {
+  width: 253.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base) 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.explore-anime,
+.genres,
+.latest-anime,
+.pricing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.explore-anime {
+  width: 181.7px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.genres,
+.latest-anime,
+.pricing {
+  cursor: pointer;
+}
+.latest-anime {
+  width: 164.8px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.genres,
+.pricing {
+  min-width: 85.9px;
+}
+.genres {
+  min-width: 86.9px;
+}
+.pricing-parent {
+  width: 215.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.explore-anime-parent,
+.frame-wrapper {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.explore-anime-parent {
+  flex-direction: row;
+  gap: var(--gap-35xl-4);
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-black);
+  font-family: var(--font-faustina);
+}
+.frame-wrapper {
+  height: 74px;
+  width: 731.9px;
+  flex-direction: column;
+}
+.wrapper-rectangle-2-child {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  transform: scale(1.2);
+}
+.wrapper-rectangle-2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.sign-up {
+  position: relative;
+  display: inline-block;
+  mix-blend-mode: luminosity;
+  min-width: 104.8px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.explore-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-24xl-9) var(--padding-8xs);
+  position: relative;
+}
+.explore-button-wrapper {
+  width: 199.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
+.frame-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-60xl-9);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-diplomata-sc);
+}
+@media screen and (max-width: 1125px) {
+  .frame-wrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .explore-anime-parent {
+    gap: 54.4px 27px;
+  }
+  .frame-group {
+    gap: 79.9px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .explore-anime-parent {
+    display: none;
+  }
+  .frame-wrapper {
+    width: 60.89999999999998px;
+  }
+  .frame-group {
+    gap: 79.9px 20px;
+  }
+}

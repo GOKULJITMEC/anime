@@ -1,0 +1,147 @@
+.at-anime-movies {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  backdrop-filter: blur(4px);
+}
+.media-placeholder {
+  width: 739px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-161xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.explore-the-realm {
+  width: 698px;
+  position: relative;
+  font-size: var(--font-size-26xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  margin: 0 0 0-729px;
+}
+.frame-child4,
+.frame-child5,
+.image-1-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.frame-child4 {
+  width: 549px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.frame-child5,
+.image-1-icon {
+  height: 196px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-child5 {
+  height: 366px;
+  z-index: 4;
+}
+.image-1-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-width: 179px;
+}
+.image-2-icon {
+  height: 562px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 179px;
+  min-height: 562px;
+  z-index: 3;
+}
+.rectangle-parent1 {
+  width: 549px;
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 20px;
+  z-index: 1;
+}
+.home-child,
+.media-placeholder-parent,
+.rectangle-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.media-placeholder-parent {
+  width: 1286px;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xl);
+  position: relative;
+}
+.home-child {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl) var(--padding-81xl-7);
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-faustina);
+}
+@media screen and (max-width: 1350px) {
+  .home-child {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .at-anime-movies {
+    font-size: var(--font-size-9xl);
+  }
+  .media-placeholder {
+    padding-top: var(--padding-98xl);
+    box-sizing: border-box;
+  }
+  .explore-the-realm {
+    font-size: var(--font-size-17xl);
+  }
+  .home-child {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .at-anime-movies {
+    font-size: var(--font-size-2xl);
+  }
+  .explore-the-realm {
+    font-size: var(--font-size-8xl);
+  }
+}
